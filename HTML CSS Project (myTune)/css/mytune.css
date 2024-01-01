@@ -1,0 +1,629 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow:   5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar
+{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #281154;
+    color:white;
+
+}
+
+.logo
+{
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 60px;
+
+}
+
+.navbar a
+{
+    color:white;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+    transition: 0.1s  ease-in-out;
+   
+}
+
+.navbar a:hover
+{
+    transition: 0.1s ease-in-out;
+    border-bottom: 2px solid white;
+
+}
+
+.nav-links
+{
+   position:absolute; 
+  left:10rem;
+  top:100px;
+  width:150px;
+  height: 100px;
+  /* background-color: rgba(255,255,255,0.1);  */
+  background-color: #523b7e;
+  border-radius: 5px;
+  overflow: hidden;
+   display: none;  
+}
+
+.nav-links a
+{
+   color: aliceblue;
+   text-decoration: none;
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.nav  #nav-check {
+    display: none;
+}
+
+.hero-img img
+{
+  width:100%;
+}
+
+.hero-img h1
+{
+   
+    position: absolute;
+    top:500px;
+    left:700px;
+    color: white;
+    font-size: 70px;
+    background-position:center;
+}
+
+.hero-img h3
+{
+   
+    position: absolute;
+    top:600px;
+    left:600px;
+    color: white;
+    background-position:center;
+}
+
+.hero-img p
+{
+   
+    position: absolute;
+    top:650px;
+    left:400px;
+    color: white;
+    background-position:center;
+}
+
+
+.music
+{ 
+    height:700px;
+    display: block;
+    flex-direction: column ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a1058;
+    color: white;
+    padding-top: 30px;
+   
+   
+}
+
+
+.music h3{
+    padding-top: 20px;
+}
+
+.music p{
+    padding-top: 30px;
+}
+
+.btn1
+{
+    padding: 10px 40px;
+    margin-top: 20px;
+    background-color: rgb(177, 61, 19);
+    color: white;
+    border: none;
+}
+
+.btn1:hover {
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+ 
+
+
+  .ipad-img
+
+  {
+    background-image: url(../images/ipad-iphone.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-left: 350px; 
+    margin-top: -300px;
+  
+  }
+
+  .about-music
+  {
+    height: 360px;
+    
+  }
+ 
+.about-music h3{
+    padding-top: 20px;
+    padding-left: 550px;
+}
+
+.about-music p{
+    padding-top: 30px;
+    padding-left: 450px;
+}
+
+.btn2
+{
+    padding: 10px 40px;
+    margin-top: 40px;
+    background-color: #281154;
+    color: white;
+    border: none;
+    margin-left: 700px;
+    
+}
+
+.btn2:hover {
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+
+  .vdo img
+  {
+    width:100%;
+  }
+
+  .mac img
+
+  {
+    margin-top: 30px;
+    margin-left: 250px;
+  }
+  
+  .gift-card
+{
+   background-image: url(../images/gift_card.png);
+   background-repeat: no-repeat;
+   height: 400px;
+   margin-top: 150px;
+}
+
+.gift-card h3
+{
+    margin-left: 500px;
+}
+
+.gift-card p
+{
+    padding-top: 20px;
+    margin-left: 500px;
+}
+
+.btn3
+{
+    padding: 10px 40px;
+    margin-top: 40px;
+    background-color: #281154;
+    color: white;
+    border: none;
+    margin-left: 500px;
+    
+}
+
+.btn3:hover {
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .upper-foot
+  {
+      height: 300px;
+      background-color: #281154;
+      color: white;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  .upper-foot h4
+  {
+     margin-top: 30px;
+     border-bottom: 2px solid white;
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+  }
+  
+  .upper-foot a
+  {
+      display: block;
+      text-decoration:none ;
+      color: white;
+      padding-top: 10px;
+  }
+  
+  .upper-foot a:hover{
+      text-decoration: underline;
+      color: white;
+  }
+  
+  .lower-foot
+  {
+      height: 40px;
+      background-color: #1b0058;
+      color: white;
+      display: flex;
+      align-items: center;
+     justify-content: center;
+  
+  } 
+
+
+  @media(max-width:900px)
+  {
+    .hero-img h1
+{
+   
+   top:300px;
+   left:300px ;
+   font-size: 40px;
+  
+  }
+
+  .hero-img h3
+  {
+     
+     
+      top:350px;
+      left:180px;
+      padding-top: 10px;
+    
+  }
+  
+  .hero-img p
+  {
+     
+      
+      top:400px;
+      left:180px;
+    
+  }
+
+
+  .ipad-img 
+
+  {
+    margin-left: 20px;
+    width:750px
+  }
+
+ 
+  .about-music h3{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.about-music p{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.btn2
+{
+    padding: 10px 40px;
+   
+   
+    margin-left: 350px;
+    
+}
+
+
+.mac img
+
+{
+    margin-left: 50px;
+    width:700px
+}
+
+
+
+.gift-card p
+{
+   
+    font-size: 12px;
+}
+
+
+.btn3
+{
+    padding: 10px 40px;
+    margin-top: 40px;
+    margin-left: 500px;
+    
+} 
+
+}
+
+
+@media(max-width:700px)
+{
+
+    header
+    {
+        position: relative;;
+
+    }
+
+    .logo
+    {
+        margin-left: 130px;
+    }
+
+  .hero-img h1
+{
+ 
+ top:220px;
+ left:150px ;
+ font-size: 25px;
+
+}
+
+.hero-img h3
+{
+   
+   
+    top:250px;
+    left:80px;
+    padding-top: 10px;
+    font-size: 12px;
+  
+}
+
+.hero-img p
+{
+   
+    
+    top:300px;
+    left:50px;
+    font-size: 10px;
+  
+}
+
+.music
+
+{
+    height: 500px;
+}
+
+.music h1
+{
+    font-size: 25px;
+}
+
+.music h3{
+    padding-top: 20px;
+}
+
+.music p{
+    padding-top: 30px;
+    font-size: 12px;
+}
+
+.btn1
+{
+    padding: 10px 40px;
+    margin-top: 20px;
+    background-color: rgb(177, 61, 19);
+    color: white;
+    border: none;
+}
+
+
+.ipad-img 
+
+{
+  display: none;
+}
+
+
+.about-music h3{
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.about-music p{
+  padding-top: 30px;
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+.btn2
+{
+  padding: 10px 40px;
+  margin-left: 50px;
+  margin-top: 20px;
+  
+}
+
+
+.mac img
+
+{
+  
+  width:400px;
+  margin-left: 1px;
+}
+
+
+.gift-card
+{
+   background-image: url(../images/gift_card.png);
+   background-repeat: no-repeat;
+   height: 500px;
+   margin-top: 80px;
+}
+
+.gift-card h3
+{
+    margin-left: 50px;
+    padding-top: 320px;
+}
+
+.gift-card p
+{
+    padding-top: 20px;
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+
+.btn3
+{
+    padding: 10px 40px;
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+
+.upper-foot
+  {
+      height: 300px;
+      margin-top: 100px;
+    
+  }
+
+
+  .upper-foot h4
+  {
+     margin-top: 30px;
+     border-bottom:none;
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+     margin-left: 10px;
+     font-size: 15px;
+  }
+  
+  .upper-foot a
+  {
+      display: block;
+      text-decoration:none ;
+      color: white;
+      padding-top: 10px;
+      margin-left: 10px;
+      font-size: 12px;
+  }
+
+
+  .lower-foot
+  {
+      font-size: 15px;
+  
+  } 
+
+
+
+
+.navbar a
+
+{
+    display: none;
+    
+}
+
+
+.nav  .nav-btn  label {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border: none;
+    border-top-right-radius: 10px;
+  }
+
+
+  .nav  .nav-btn  label:hover,.nav  #nav-check:checked ~ .nav-btn  label {
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    
+  }
+
+  .nav  .nav-btn  label  span {
+    display: block;
+    width: 25px;
+    height: 5px;
+    background-color: #281154;
+    border-radius: 5px;
+  } 
+
+  .nav  .nav-links {
+    position: absolute;
+    display: block;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 120px;
+    left: 90px;
+    height: 80px;
+  }
+
+
+  .nav  .nav-links  a {
+    display: block;
+    padding-left: 10px;
+    color:white;
+    font-weight: 600;
+    font-family: 'Bona Nova';
+  }
+
+
+   .nav  #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  } 
+  .nav  #nav-check:checked ~ .nav-links {
+    height: 250px;
+    overflow-y: hidden;
+  }
+
+  .nav  #nav-check {
+    display: none;
+}
+
+
+}

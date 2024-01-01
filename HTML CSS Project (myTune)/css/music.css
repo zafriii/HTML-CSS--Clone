@@ -1,0 +1,624 @@
+body
+{
+    margin: 100px;
+    padding: 0;
+    /* background-color: rgb(100, 23, 100);   */
+    /* background-image: url(../images/pink.jpg); */
+    background: linear-gradient(45deg, rgb(136, 10, 136),rgb(100, 23, 100), #2a1058,  #6238ac );
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color{
+
+0%{
+background-position: 0 50%;
+}
+
+
+50%{
+    background-position: 100% 50%;
+    }
+    
+
+
+    100%{
+        background-position: 0 50%;
+        }
+        
+
+}
+
+.container
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns:30% 30% 30% ; 
+    justify-content: space-evenly;
+}
+
+header h1
+{
+    
+    color: white;
+    font-family: 'Bona Nova';   
+}
+
+header h3
+{
+    
+    color: white;
+    font-family: 'Bona Nova';   
+}
+
+header p
+{
+    
+    color: white;
+    font-family: 'Bona Nova';
+    font-size: 20px;
+}
+
+.trend
+{
+    display: flex;
+}
+
+.trend i
+{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.nav-continer
+{
+    display: flex;
+}
+
+.nav-search
+
+{
+    height: 40px;
+    width: 620px;
+    display: flex;
+    border-radius: 4px;
+    justify-content: space-evenly;
+       
+}
+
+.nav-search :placeholder-shown
+{
+    text-align: center;
+}
+
+.input
+
+{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-top-left-radius:50px ;
+    border-bottom-left-radius: 50px;
+}
+
+.search-icon
+
+{
+    width: 45px;
+    background-color:rgb(176, 129, 219) ;
+    color: rgb(60, 27, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+
+.heart-icon
+
+{
+    font-size: 30px;
+    padding-left: 30px;
+    margin-left: 30px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    height: 60px;   
+   
+}
+
+.heart-icon i{
+    margin-top: 15px;
+    padding-right: 30px;
+    color: rgb(128, 0, 79);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.heart-icon i:hover
+{
+    transform: scale(1.1);
+transition: all 0.5s ease-in-out 0s;
+}
+
+.container .icon
+{
+    font-size: 30px;
+    color: white;
+    margin-left: 110px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+
+.icon:hover
+{
+transform: scale(1.1);
+transition: all 0.5s ease-in-out 0s;
+color: rgb(100, 23, 100);
+}
+
+
+
+.music-card1
+
+{
+    /* background-color: goldenrod;  */
+     background-color: rgb(43, 41, 41);
+    height: 470px;
+    width:300px;
+    border-radius: 10px;
+    border-top:3px solid black;
+    border-left:3px solid black;
+    border-right:3px solid black;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.music-card1 img
+{
+    height: 200px;
+    width:300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.music-card1 h2
+{
+    color: bisque;
+    margin-left: 80px;
+    font-family: 'Bona Nova';font-size: 25px; 
+}
+
+.music-card1 audio
+{
+    background-color: rgb(173, 158, 69);
+    margin-top: 20px;
+    padding: 20px 0px;
+    outline: none;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    
+}
+
+.music-card1 p
+{
+    color: antiquewhite;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.music-card2
+
+{
+    /* margin-top: 20px; */
+    background-color: rgb(179, 19, 19);
+    height: 470px;
+    width:300px;
+    border-radius: 10px;
+    border-top:3px solid rgb(179, 19, 19);
+    border-left:3px solid rgb(179, 19, 19);
+    border-right:3px solid rgb(179, 19, 19);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.music-card2 img
+{
+    height: 200px;
+    width:300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.music-card2 h2
+{
+    color: bisque;
+    margin-left: 100px;
+    font-family: 'Bona Nova';font-size: 25px; 
+}
+
+.music-card2 audio
+{
+    background-color: rgb(182, 63, 63);
+    margin-top: 20px;
+    padding: 20px 0px;
+    outline: none;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+
+.music-card2 p
+{
+    color: antiquewhite;
+    font-size: 20px;
+    margin-left: 85px;
+}
+
+
+.music-card3
+
+{
+    /* margin-top: 20px; */
+    background-color:rgb(147, 147, 190);
+    height: 470px;
+    width:300px;
+    border-radius: 10px;
+    border-top:3px solid rgb(147, 147, 190);
+    border-left:3px solid rgb(147, 147, 190);
+    border-right:3px solid rgb(147, 147, 190);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.music-card3 img
+{
+    height: 200px;
+    width:300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.music-card3 h2
+{
+    color: bisque;
+    margin-left: 60px;
+    font-family: 'Bona Nova';font-size: 25px; 
+}
+
+.music-card3 p
+{
+    color: antiquewhite;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.music-card3 audio
+{
+    background-color:rgb(119, 119, 165);
+    margin-top: 20px;
+    padding: 20px 0px;
+    outline: none;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+       
+}
+
+
+.music-card4
+
+{
+    /* margin-top: 20px; */
+    background-color: rgb(124, 19, 19);
+    height: 470px;
+    width:300px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border-top:3px solid rgb(179, 19, 19);
+    border-left:3px solid rgb(179, 19, 19);
+    border-right:3px solid rgb(179, 19, 19);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.music-card4 img
+{
+    height: 200px;
+    width:300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.music-card4 h2
+{
+    color: bisque;
+    margin-left: 60px;
+    font-family: 'Bona Nova';font-size: 25px; 
+}
+
+.music-card4 p
+{
+    color: antiquewhite;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.music-card4 audio
+{
+    background-color: rgb(158, 42, 42);
+    margin-top: 20px;
+    padding: 20px 0px;
+    outline: none;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+       
+}
+
+.music-card5
+
+{
+    /* margin-top: 20px; */
+    background-color: rgb(128, 0, 79);
+    height: 470px;
+    width:300px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border-top:3px solid  rgb(128, 0, 79);
+    border-left:3px solid  rgb(128, 0, 79);
+    border-right:3px solid  rgb(128, 0, 79);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.music-card5 img
+{
+    height: 200px;
+    width:300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.music-card5 h2
+{
+    color: bisque;
+    margin-left: 80px;
+    font-family: 'Bona Nova';font-size: 25px; 
+}
+
+.music-card5 p
+{
+    color: antiquewhite;
+    font-size: 20px;
+    margin-left: 120px;
+}
+
+.music-card5 audio
+{
+    background-color: rgb(138, 14, 90);
+    margin-top: 20px;
+    padding: 20px 0px;
+    outline: none;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+       
+}
+
+.music-card6
+
+{
+    /* margin-top: 20px; */
+    background-color:palevioletred;
+    height: 470px;
+    width:300px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border-top:3px solid  palevioletred;
+    border-left:3px solid  palevioletred;
+    border-right:3px solid  palevioletred;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.music-card6 img
+{
+    height: 200px;
+    width:300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.music-card6 h2
+{
+    color: bisque;
+    margin-left: 90px;
+    font-family: 'Bona Nova';font-size: 20px; 
+}
+
+.music-card6 p
+{
+    color: antiquewhite;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.music-card6 audio
+{
+    background-color: rgb(194, 128, 150);
+    margin-top: 20px;
+    padding: 20px 0px;
+    outline: none;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+       
+}
+
+  /* .music-card1:hover
+{
+    transition: all 0.5s ease-in-out 0s;
+    transform: scale(1.1); 
+    cursor: pointer;
+}  
+
+.music-card2:hover
+{
+    transition: all 0.5s ease-in-out 0s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.music-card3:hover
+{
+    transition: all 0.5s ease-in-out 0s;
+    transform: scale(1.1);
+    cursor: pointer;
+} */
+
+
+ @media(max-width:1200px) 
+{
+    .container
+    {
+       
+       display: grid;
+       grid-template-columns:60% 60% ;  
+       /* grid-template-columns:35% 35% 25%;   */
+        
+    }
+
+    .music-card3
+    {
+        margin-top: 40px;
+    }
+
+} 
+
+@media(max-width:900px) 
+{
+    
+
+    .nav-search
+
+    {
+        height: 40px;
+        width: 400px;
+
+    }
+
+    .container
+{
+   
+   display: grid;
+   grid-template-columns:60% 60% ;  
+    
+}
+
+.music-card3
+{
+    margin-top: 40px;
+}
+
+}
+
+
+@media(max-width:700px) 
+{
+    body 
+    {
+        margin: 50px;
+    }
+
+    .nav-continer
+    {
+        flex-direction: column;
+    }
+
+
+
+
+    .nav-search
+
+    {
+        height: 40px;
+        width: 300px;
+
+    }
+
+    .heart-icon
+
+{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left:100px ;
+    background-color: antiquewhite;
+    width:20px;
+    height:60px; 
+   
+   
+}
+
+.heart-icon i{
+    margin-top: 20px;
+    position: absolute;
+    left: 165px;
+    color: rgb(128, 0, 79);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.trend i
+{
+    margin-top: 20px;
+    margin-left:15px;
+    font-size: 20px;
+    color: white;
+}
+
+
+    .container
+{
+    display: grid;
+    grid-template-columns:100%  ; 
+       
+}
+
+.music-card2
+{
+    margin-top: 40px;
+}
+
+.music-card3
+{
+    margin-top: 40px;
+}
+
+}
+
+
+@media(max-width:430px) 
+{
+    body 
+    {
+        margin: 36px;
+    }
+    .heart-icon i{
+        margin-top: 20px;
+        position: absolute;
+        left: 151px;
+        color: rgb(128, 0, 79);
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out 0s;
+    }
+
+    .trend i
+{
+    margin-top: 20px;
+    margin-left:10px;
+    font-size: 20px;
+    color: white;
+}
+
+}
