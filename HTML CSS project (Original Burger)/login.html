@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+    <link rel = "website icon" type="png" href = "images/burger-logo (1).png">
+    <link rel = "stylesheet" href = "css/login.css">
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Bona Nova' rel='stylesheet'>
+</head>
+
+<body>
+    
+  
+  <div class="container">
+    <h2>Login</h2> 
+
+    <form action=""> 
+      <div class="Email">
+       
+        <input
+          id="email"
+          name="email"
+          placeholder="Enter Your Email..."
+         />
+         <i class="fa-solid fa-at"></i> 
+      </div>
+
+        <div class="pass">
+         
+        <input type="password"
+          id="password"
+          name="password"
+          placeholder="Enter password..."
+        />
+        <i class="fa-solid fa-lock"></i>
+      </div>
+     
+      <div class="rem-for">
+        <div class="rem"> <input type="checkbox">Remember me</div>
+        <div class="for"> <a href="reset.html">Forgot password</a> ?</div>
+        
+      </div> 
+
+     
+        <!-- <div class="login">
+          <div class="log-in">Log in</div> 
+        </div> -->
+
+        <div class="login">
+          <button class="log">Login
+           <div class="loader"></div>
+          </button>
+       </div>
+
+        <div class="reg">
+          Don't have an account? <a href="signup.html">Register</a>
+        </div>
+      
+      </form>
+
+      <script>
+
+        document.querySelector(".log").addEventListener("click", function(){
+          var loader = document.querySelector('.loader');
+          loader.style.display = "block";
+          var log = document.querySelector('.log');
+          log.style.color = "#ffffff";
+          
+      });
+  
+    </script>
+  
+</body>
+
+</html>
